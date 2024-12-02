@@ -156,7 +156,11 @@ aside h3 {
 	padding-bottom: .25em;
 }
 aside img {
+	transition: 2s;
 	padding-bottom: 1em;
+}
+aside img:hover{
+	transform-origin: right 100px, bottom 20px;
 }
 
 /* the styles for the footer */
